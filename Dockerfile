@@ -11,4 +11,4 @@ COPY ./app.js /app/
 COPY ./package.json /app/
 
 RUN ["npm", "install"]
-RUN ["npm", "start"]
+CMD ["npm", "start"]
